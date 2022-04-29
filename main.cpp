@@ -177,10 +177,21 @@ void acceptOrder(vector<MenuItem> &m)
 
 int main() 
 {
-  vector<MenuItem> wholeMenu; 
-  populateMenu(wholeMenu); //put some default values in the menu
-  showMenu(wholeMenu); //print the current data of the menu on screen 
-  acceptOrder(wholeMenu); 
-  
+  int result = 1;
+  do
+  {
+    vector<MenuItem> wholeMenu;
+    populateMenu(wholeMenu); //put some default values in the menu
+    showMenu(wholeMenu); //print the current data of the menu on screen 
+    acceptOrder(wholeMenu);
+    cout << "Enter z to exit loop or any key to continue" << endl;
+    char zz;
+    cin >> zz;
+    if(zz == 'z')
+    {
+      result = 0;
+    } 
+  }
+  while(result == 1);
   return 0; 
 }
