@@ -1,4 +1,9 @@
-//A  Restaurant Project Struct style Dr_T Dr. Tyson McMillan 10-2-2019
+//Student Name: Jobanpreet Singh
+//Teacher: Dr. Tyson McMillan 
+// Tarrant County College
+//Date: 3/31/22
+// Purpose of Assignment : To create a menu with tips and taxes
+// Skills Gained: Learned how to loop with and added tips/taxes to a menu
 
 #include <iostream>
 #include<string>
